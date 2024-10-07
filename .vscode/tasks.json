@@ -7,7 +7,6 @@
         "args": [
         "main.cpp",
         "${workspaceFolder}/glad.c",
-        "${workspaceFolder}/shaders_s.h",
         "-I${workspaceFolder}/",
         "-I${workspaceFolder}/include",
         "-lglfw",
