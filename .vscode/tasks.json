@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+        "label": "buildmain",
+        "command": "g++",
+        "args": [
+        "main.cpp",
+        "${workspaceFolder}/glad.c",
+        "-I${workspaceFolder}/",
+        "-I${workspaceFolder}/include",
+        "-lglfw",
+        "-lGL",
+        "-ldl",
+        "-g"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+}
